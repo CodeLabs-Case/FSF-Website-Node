@@ -5,7 +5,7 @@ $(document).ready(()=>{
   })
 
   $("#img-familysportsandfitness").on("click", ()=>{
-      document.location.href = "/index"
+      document.location.href = "/"
   })
 
 
