@@ -176,7 +176,7 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
   font-size: 30px;
 
   grid-row: 1;
-  grid-column: 1;
+  grid-column: 2;
 
   align-self: center;
   justify-self: center;
