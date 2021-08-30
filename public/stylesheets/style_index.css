@@ -105,7 +105,7 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
 
 
 .swiper-container {
-  height: 600px;
+  height: 500px;
   width: 100%;
 
   border-style: solid;
@@ -140,17 +140,21 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
   background-color: red !important;
 }
 .div-slide-inner {
-  height: 600px;
+  height: 500px;
   width: 100%;
 
   background-color: #fff;
 
   display: grid;
-  grid-template-rows: 100px 500px;
+  grid-template-rows: 500px;
   grid-template-columns: 1fr;
+
+  margin-top: 1em;
+  border-top: 3px solid #FF0000;
+  border-bottom: 3px solid #FF0000;
 }
 /* Upper Slide */
-.div-slide-upper{
+/* .div-slide-upper{
   background-color: #fff;
   width: 100%;
 
@@ -165,7 +169,7 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
-}
+} */
 /* All slides' styling */
 [class^='p-'] {
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
