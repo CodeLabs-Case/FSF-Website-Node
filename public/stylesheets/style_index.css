@@ -286,7 +286,7 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
 
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr 1fr;
 
   justify-self: center;
   align-self: center;
@@ -308,6 +308,9 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
 }
 .p-hours {
   font-size: medium;
+
+  grid-row: 2;
+  grid-column: 1;
 }
 
 
