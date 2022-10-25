@@ -306,7 +306,9 @@ classselector/unitselector/elementselector psuedoselector:selector{ Try to add t
 .test {
    color: red;
 }
-
+.p-hours {
+  font-size: medium;
+}
 
 
 
