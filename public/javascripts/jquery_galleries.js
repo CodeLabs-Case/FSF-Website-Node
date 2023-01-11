@@ -254,7 +254,7 @@ $(document).ready(()=>{
     }
     else if(ind == indicators[1]){
       $(".ind").attr("src", indicators[0])
-    // }
+    }
     // else if(ind == indicators[2]){
     //   $(".ind").attr("src", indicators[0])
     // }
