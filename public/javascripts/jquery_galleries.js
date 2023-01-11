@@ -246,9 +246,6 @@ $(document).ready(()=>{
       $(".img1").attr("src", weightRoomPictures[1])
     }
     else if(src == weightRoomPictures[1]){
-      $(".img1").attr("src", weightRoomPictures[2])
-    }
-    else if(src == weightRoomPictures[2]){
       $(".img1").attr("src", weightRoomPictures[0])
     }
 
