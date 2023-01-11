@@ -190,8 +190,7 @@ $(document).ready(()=>{
 
 
   var weightRoomPictures = ["/static/images/gallery/WeightRoom1_compressed.jpg",
-                            "/static/images/gallery/WeightRoom2_compressed.jpg?v=",
-                            "/static/images/gallery/WeightRoom3_compressed.jpg?v="]
+                            "/static/images/gallery/WeightRoom2_compressed.jpg"]
 
   var functionalFitnessPictures = ["/static/images/gallery/FunctionalFitness1_compressed.jpg",
                                    "/static/images/gallery/FunctionalFitness2_compressed.jpg",
@@ -204,10 +203,8 @@ $(document).ready(()=>{
   var ladiesOnlyPictures = ["/static/images/gallery/LadiesOnly1_compressed.jpg",
                             "/static/images/gallery/LadiesOnly2_compressed.jpg",
                             "/static/images/gallery/LadiesOnly3_compressed.jpg"]
-
-  var courtsPictures = ["/static/images/gallery/Courts1_compressed.JPG",
-                        "/static/images/gallery/Courts2_compressed.JPG",
-                        "/static/images/gallery/Courts3_compressed.JPG"]
+  // One for now
+  var courtsPictures = ["/static/images/gallery/Courts1_compressed.JPG"]
 
   // One for now
   var poolPictures = ["/static/images/gallery/Pool_compressed.jpg"]
