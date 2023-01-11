@@ -188,7 +188,7 @@ $(document).ready(()=>{
 
 
 
-
+//"/static/images/gallery/WeightRoom3_compressed.jpg?v="
   var weightRoomPictures = ["/static/images/gallery/WeightRoom1_compressed.jpg",
                             "/static/images/gallery/WeightRoom2_compressed.jpg"]
 
@@ -223,13 +223,10 @@ $(document).ready(()=>{
     var src = $(".img1").attr("src")
     var ind = $(".ind").attr("src")
     if(src == weightRoomPictures[0]){
-      $(".img1").attr("src", weightRoomPictures[2])
+      $(".img1").attr("src", weightRoomPictures[1])
     }
     if(src == weightRoomPictures[1]){
       $(".img1").attr("src", weightRoomPictures[0])
-    }
-    else if(src == weightRoomPictures[2]){
-      $(".img1").attr("src", weightRoomPictures[1])
     }
 
     if(ind == indicators[0]){
