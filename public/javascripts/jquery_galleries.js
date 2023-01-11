@@ -230,7 +230,7 @@ $(document).ready(()=>{
     }
 
     if(ind == indicators[0]){
-      $(".ind").attr("src", indicators[2])
+      $(".ind").attr("src", indicators[1])
     }
     else if(ind == indicators[1]){
       $(".ind").attr("src", indicators[0])
