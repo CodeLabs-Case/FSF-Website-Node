@@ -235,9 +235,9 @@ $(document).ready(()=>{
     else if(ind == indicators[1]){
       $(".ind").attr("src", indicators[0])
     }
-    else if(ind == indicators[2]){
-      $(".ind").attr("src", indicators[1])
-    }
+    // else if(ind == indicators[2]){
+    //   $(".ind").attr("src", indicators[1])
+    // }
   })
   $(".arrow_right1").click(()=>{
     var src = $(".img1").attr("src")
@@ -253,11 +253,11 @@ $(document).ready(()=>{
       $(".ind").attr("src", indicators[1])
     }
     else if(ind == indicators[1]){
-      $(".ind").attr("src", indicators[2])
-    }
-    else if(ind == indicators[2]){
       $(".ind").attr("src", indicators[0])
-    }
+    // }
+    // else if(ind == indicators[2]){
+    //   $(".ind").attr("src", indicators[0])
+    // }
   })
 
 
