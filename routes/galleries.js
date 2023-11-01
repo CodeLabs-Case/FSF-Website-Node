@@ -9,13 +9,15 @@ router.route('/').get((req, res, err)=>{
         console.log(err)
     }
 
-    // This is how I had to set the path to work in this seperate file.
-    // However, EJS will be used in future so this may be temporary.
-    // Remote Path
-    res.render(path.join('/var/app/current/views/galleries.ejs'))
+    // Check if the server is running in a local environment and render the proper path to file
+    const host = req.headers.host
 
-    // Local Path
-    //res.render('C:/Users/davis/OneDrive/Documents/Development/ProJavaScript/fsf-website-node/views/galleries.ejs')
+    if(host === 'localhost:3000') {
+        res.render('C:/Users/davis/OneDrive/Documents/Development/ProJavaScript/fsf-website-node/views/galleries.ejs')
+    }
+    else {
+        res.render(path.join('/var/app/current/views/galleries.ejs'))
+    }
 })
 
 
